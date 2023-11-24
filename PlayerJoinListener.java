@@ -36,7 +36,7 @@ public class PlayerJoinListener implements Listener {
         daysLastJoined = config.options().getInt("days");
         otherMessages = config.options().getStringList("other-messages");
         configuredXpBoost = config.options().getInt("experience-boost.amount");
-        xpmessage = config.options().getString("experience-boost.amount.message");
+        xpmessage = config.options().getString("experience-boost.message");
     }
 
     @EventHandler
